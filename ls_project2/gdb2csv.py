@@ -29,5 +29,3 @@ def converter(gdb_path, csv_path, layer_name):
     )
 
     print("Conversion completed successfully")
-
-converter(gdb_path, csv_path, layer_name)
