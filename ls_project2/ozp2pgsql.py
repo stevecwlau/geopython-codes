@@ -67,12 +67,9 @@ def fetch_and_process_wfs_data(wfs_url, download_dir, postgis_conn_string=None, 
                 
                 # Append the GeoDataFrame to the list
                 gdf_ozp.append(gdf)
-                
-                # Remove the extracted GML file after reading
-                os.remove(gml_path)
 
     # Merge all the GeoDataFrames into a single GeoDataFrame
-    gdf_merged_ozp = pd.concat(gdf_ozp, ignore_index=True)
+    gdf_merged_ozp = gpd.pd.concat(gdf_ozp, ignore_index=True)
 
     # Optionally save to PostGIS
     if postgis_conn_string:
