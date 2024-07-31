@@ -7,7 +7,7 @@ import zipfile
 import pandas as pd
 from sqlalchemy import create_engine
 
-def fetch_and_process_wfs_data(wfs_url, download_dir, postgis_conn_string=None, table_name="gdf_merged_ozp"):
+def fetch_and_process_wfs_data(wfs_url, download_dir, postgis_conn_string=None, table_name="gdf_merged_ozp", schema_name="public"):
     # Initialize WFS service
     wfs = WebFeatureService(url=wfs_url, version='1.1.0')
 
@@ -74,8 +74,8 @@ def fetch_and_process_wfs_data(wfs_url, download_dir, postgis_conn_string=None, 
     # Optionally save to PostGIS
     if postgis_conn_string:
         engine = create_engine(postgis_conn_string)
-        gdf_merged_ozp.to_postgis(table_name, engine, if_exists="replace")
-        print(f"Data saved to PostGIS table '{table_name}'.")
+        gdf_merged_ozp.to_postgis(table_name, engine, if_exists="replace", schema=schema_name)
+        print(f"Data saved to PostGIS table '{schema_name}.{table_name}'.")
 
     print(f"Successfully merged {len(gdf_ozp)} GML files into one GeoDataFrame.")
     return gdf_merged_ozp

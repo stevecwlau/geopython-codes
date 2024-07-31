@@ -1,13 +1,14 @@
 from osgeo import gdal, ogr
 import subprocess
 
-def transfer_gdb_to_postgis(gdb_path, pg_connection):
+def transfer_gdb_to_postgis(gdb_path, pg_connection, schema_name):
     """
     Transfer layers from a GeoDatabase to a PostgreSQL/PostGIS database.
 
     Parameters:
     - gdb_path (str): Path to the GeoDatabase.
     - pg_connection (str): PostgreSQL connection string.
+    - schema_name (str): Schema name in the PostgreSQL database.
     """
     
     # Open source dataset (GeoDatabase)
@@ -21,13 +22,34 @@ def transfer_gdb_to_postgis(gdb_path, pg_connection):
     # Mapping from human-readable names to command line names
     geom_type_mapping = {
         "None": "NONE",
+        "Point": "POINT",
+        "Line String": "LINESTRING",
+        "Polygon": "POLYGON",
+        "Multi Point": "MULTIPOINT",
+        "Multi Line String": "MULTILINESTRING",
         "Multi Polygon": "MULTIPOLYGON",
-        "3D Multi Polygon": "MULTIPOLYGON",
+        "Geometry Collection": "GEOMETRYCOLLECTION",
+        "Circular String": "CIRCULARSTRING",
+        "Compound Curve": "COMPOUNDCURVE",
+        "Curve Polygon": "CURVEPOLYGON",
+        "Multi Curve": "MULTICURVE",
+        "Multi Surface": "MULTISURFACE",
+        "Curve": "CURVE",
+        "Surface": "SURFACE",
+        "3D Point": "POINT",
+        "3D Line String": "LINESTRING",
+        "3D Polygon": "POLYGON",
+        "3D Multi Point": "MULTIPOINT",
         "3D Multi Line String": "MULTILINESTRING",
-        "3D Point": "MULTIPOINT",
-        "3D Measured Multi Line String": "MULTILINESTRING",
-        "3D Measured Point": "MULTIPOINT",
-        "3D Measured Multi Polygon": "MULTIPOLYGON"
+        "3D Multi Polygon": "MULTIPOLYGON",
+        "3D Geometry Collection": "GEOMETRYCOLLECTION",
+        "3D Circular String": "CIRCULARSTRING",
+        "3D Compound Curve": "COMPOUNDCURVE",
+        "3D Curve Polygon": "CURVEPOLYGON",
+        "3D Multi Curve": "MULTICURVE",
+        "3D Multi Surface": "MULTISURFACE",
+        "3D Curve": "CURVE",
+        "3D Surface": "SURFACE",
     }
 
     # Function to get the geometry type as a string
@@ -49,13 +71,20 @@ def transfer_gdb_to_postgis(gdb_path, pg_connection):
     # Function to run ogr2ogr command
     def run_ogr2ogr(layer_name, geom_type_name):
         geom_type_cmd = geom_type_mapping.get(geom_type_name, "NONE")
+        
+        # Debugging line to print geometry type and corresponding command
+        print(f"Layer: {layer_name}, Geometry Type: {geom_type_name}, Command Geometry Type: {geom_type_cmd}")
+        
         command = [
             "ogr2ogr",
             "-f", "PostgreSQL",
             pg_connection,
             gdb_path,
             layer_name,
-            "-nlt", geom_type_cmd
+            "-nlt",
+            geom_type_cmd,
+            "-nln",
+            f"{schema_name}.{layer_name}"
         ]
         
         print("Running command:", " ".join(command))
@@ -73,3 +102,6 @@ def transfer_gdb_to_postgis(gdb_path, pg_connection):
     layers = list_layers(src_ds)
     for layer_name, geom_type_name in layers:
         run_ogr2ogr(layer_name, geom_type_name)
+
+# Example usage:
+# transfer_gdb_to_postgis("path/to/geodatabase.gdb", "PG:host=localhost dbname=mydb user=myuser password=mypassword", "myschema")
