@@ -26,7 +26,7 @@ def import_shapefile_to_postgresql(shp_file, pg_connection, schema_name):
         "-f", "PostgreSQL", 
         pg_connection, 
         shp_file, 
-        "-nlt", "MULTIPOINT",
+        "-nlt", "MULTIPOLYGON",
         "-nln", f"{schema_name}.{layer_name}"
     ]
 
