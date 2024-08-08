@@ -1,0 +1,450 @@
+old_use,new_use
+Agricultural,Agricultural
+Orchard,Agricultural
+Agriculture,Agricultural
+Farm,Agricultural
+Threshing Floor,Agricultural
+Cultivation (Castor Oil Plants),Agricultural
+"Agricultural, Agricultural",Agricultural
+Office/Commercial,Commercial
+Commerce,Commercial
+Commercial,Commercial
+Commercial / Residential,Commercial
+Commercial/Residential,Commercial
+Religion,"Culture, Religion, and Recreation"
+Public Pleasure Ground,"Culture, Religion, and Recreation"
+Recreation,"Culture, Religion, and Recreation"
+Temple (Buddist Faith),"Culture, Religion, and Recreation"
+Religious,"Culture, Religion, and Recreation"
+Recreational/Club,"Culture, Religion, and Recreation"
+Ancestral Worship (Chi Tong),"Culture, Religion, and Recreation"
+Anchestral Hall (Chi Tong),"Culture, Religion, and Recreation"
+Ancestral Hall,"Culture, Religion, and Recreation"
+Chi Tong,"Culture, Religion, and Recreation"
+Chi Tong',"Culture, Religion, and Recreation"
+Tourist Attraction,"Culture, Religion, and Recreation"
+Arts And Cultural Centre,"Culture, Religion, and Recreation"
+Recreation Priority Area,"Culture, Religion, and Recreation"
+Temple,"Culture, Religion, and Recreation"
+Institute For Technical Education And/Or Industrial Training,Education and Research
+Education & Training,Education and Research
+Training Centre,Education and Research
+School,Education and Research
+Headquarter Of Hong Kong Academy Of Medicine,Education and Research
+Educational,Education and Research
+Research Institution,Education and Research
+Country Park,Environmental and Conservation
+Green Belt,Environmental and Conservation
+Conservation Area,Environmental and Conservation
+Coastal Protection Area,Environmental and Conservation
+Site Of Special Scientific Interest,Environmental and Conservation
+Industrial,Industrial
+Industrial And/Or Godown,Industrial
+Industrial/Factory (Specified),Industrial
+Industrial (Group D),Industrial
+Industry,Industrial
+Storage And Supply Liquified Petroleum Gas,Storage
+Gas Pressure Reduction Station,Miscellaneous
+Distillery,Miscellaneous
+In Connection With A Brick Works,Miscellaneous
+"Industrial/Factory (Specified), Non-Residential",Industrial
+Works Area,Miscellaneous
+Fish Marketing Office And Depot,Miscellaneous
+Grain Grinding Mill Or Grain Godown Or Both,Miscellaneous
+Slaughterhouse,Miscellaneous
+Wholesale Fish Market,Miscellaneous
+Organization,Miscellaneous
+Undetermined,Miscellaneous
+Virtually Unrestricted,Miscellaneous
+Non-Industrial,Miscellaneous
+Non-Industrial (Excluding Godown),Miscellaneous
+Petrol Filling Station,Miscellaneous
+Non-Industrial Excluding Residential,Miscellaneous
+Lpg Filling Station,Miscellaneous
+"Industrial And/Or Godown, Industrial/Factory (Specified), Quarters, Canteen",Mixed-use
+"Industrial And/Or Godown, Industrial/Factory (Specified), Warehouse, Canteen, Quarters",Mixed-use
+"Quarters, Canteen, Industrial/Factory (Specified), Industrial And/Or Godown",Mixed-use
+"Industrial And/Or Godown, Industrial/Factory (Specified), Quarters, Canteen, Warehouse",Mixed-use
+"Industrial And/Or Godown, Petrol Filling Station",Mixed-use
+"Industrial And/Or Godown, Ancillary Office, Quarters, Canteen And Other Welfare Facilities",Mixed-use
+"Carpark, Industrial/Factory (Specified)",Mixed-use
+"Residential, Industrial And/Or Godown",Mixed-use
+"Industrial And/Or Godown, Residential",Mixed-use
+"Other Welfare Facilities, Canteen, Industrial/Factory (Specified), Quarters, Industrial/Factory (Specified), Industrial And/Or Godown",Mixed-use
+"Ancillary Offices, Quarters, Industrial (Godown)/Office",Mixed-use
+"Industrial Training Centre, Quarters",Mixed-use
+"Canteen, Clinic, Industrial/Factory (Specified), Industrial (Godown)/Office",Mixed-use
+"Quarters, Warehouse, Industrial/Factory (Specified), Industrial (Godown)/Office",Mixed-use
+"Industrial And/Or Godown, Ancillary Office, Quarters",Mixed-use
+"Carpark, Quarters, Industrial And/Or Godown, Ancillary Office",Mixed-use
+"Quarters, Industrial And/Or Godown, Ancillary Office",Mixed-use
+"Quarters, Industrial (Godown)/Office, Industrial/Factory (Specified)",Mixed-use
+"Quarters, Carpark, Industrial/Factory (Specified), Ancillary Office",Mixed-use
+"Electricity Substations (Ess), Industrial (Godown)/Office, Quarters",Mixed-use
+"Quarters, Industrial/Factory (Specified), Petrol Filling Station",Mixed-use
+"Quarters, Industrial/Factory (Specified), Commercial",Mixed-use
+"Quarters, Industrial/Factory (Specified)",Mixed-use
+"Industrial And/Or Godown, Canteen",Mixed-use
+"A Garage For  He Mainenance And Servicing Of Motor Vehicles, Carpark, Industrial (Godown)/Office, Petrol Filling Station",Mixed-use
+"Industrial And/Or Godown, Bus Depot/Terminus/Station",Mixed-use
+"Industrial And/Or Godown, House/Dwelling House, Reclamation, Building",Mixed-use
+"Industrial And/Or Godown, Quarters",Mixed-use
+"Carpark, Industrial And/Or Godown",Mixed-use
+Industrial (Godown)/Office,Mixed-use
+"Government, Institution Or Community",Mixed-use
+"Non-Industrial, Non-Industrial",Mixed-use
+"Leisure, Culture & Sports",Mixed-use
+"Commercial, Residential",Mixed-use
+"Residential, Commercial",Mixed-use
+"Agricultural, Building/Housing Lot",Mixed-use
+"Building/Housing Lot, Agricultural",Mixed-use
+"Religious, Private Residential",Mixed-use
+"Private Residential, Agricultural",Mixed-use
+"Religious, Private Residential, Religious, Private Residential",Mixed-use
+"Private Residential, Religious",Mixed-use
+"Non-Industrial, Private Garden",Mixed-use
+"Residential, Religious",Mixed-use
+"Quarters, Religious",Mixed-use
+"Private Garden, Building/Housing Lot",Mixed-use
+"Quarters, Ancillary Offices, Religious",Mixed-use
+"Agricultural, Non-Industrial",Mixed-use
+"Non-Industrial, Agricultural",Mixed-use
+"Private Garden, Non-Industrial, Agricultural",Mixed-use
+"Non-Industrial, Private Garden, Agricultural",Mixed-use
+"Telecommunications, Public Utility (Other Than Ess)",Mixed-use
+"Airport Or Related Facilities, Hotel, Commercial",Mixed-use
+"Commercial, Petrol Filling Station",Mixed-use
+"Electricity Substations (Ess), Quarters",Mixed-use
+"Carpark, Private Residential",Mixed-use
+"Non-Industrial, Railway, Railway Depot Or Related Facilities",Mixed-use
+"Non-Industrial, Private Residential, Commercial, Social Welfare/Charitable, Community Use",Mixed-use
+"Kindergarten, Private Residential",Mixed-use
+"Social Welfare/Charitable, Community Use, Commercial, Private Residential",Mixed-use
+"Railway, Railway Depot Or Related Facilities",Mixed-use
+"Private Garden, Non-Industrial",Mixed-use
+"Religious, School",Mixed-use
+"Petrol Filling Station, Commercial",Mixed-use
+"Commercial, Private Residential, Non-Industrial, Social Welfare/Charitable, Community Use",Mixed-use
+"Recreational/Club, Private Residential, Commercial, Market, Non-Industrial",Mixed-use
+"Restauant, Non-Industrial Excluding Residential",Mixed-use
+"Non-Industrial, Residential",Mixed-use
+"Agricultural, Non-Industrial, Garden",Mixed-use
+"Non-Industrial, Agricultural, Garden",Mixed-use
+"Garden, Agricultural, Non-Industrial",Mixed-use
+"Quarters, Private Residential, Recreational/Club",Mixed-use
+"Garden, Building/Housing Lot",Mixed-use
+"Non-Industrial, Garden",Mixed-use
+"Religious, Agricultural, Private Residential",Mixed-use
+"Commercial, Petrol Filling Station, Ancillary Car Washing Facilities",Mixed-use
+"Private Residential, Hotel, Recreational/Club",Mixed-use
+"Private Residential, Commercial",Mixed-use
+"Quarters, Electricity Substations (Ess)",Mixed-use
+"Garden, Roadway",Mixed-use
+"Residential, Non-Industrial",Mixed-use
+"Commercial, Petrol Filling Station, Supply Of Liquefied Petroleum Gas",Mixed-use
+"Cable Car System, The Minimum Associated Facilities, Recreational/Club, Pier, Golf Leisure Resort Facilities, Golf Courses",Mixed-use
+"Non-Industrial, Industrial (Godown)/Office",Mixed-use
+"Residential, Educational",Mixed-use
+"Agricultural, Private Residential",Mixed-use
+"Non-Industrial, Carpark",Mixed-use
+"Agricultural (Remainder), Non-Industrial",Mixed-use
+"Private Residential, Religious, Agricultural",Mixed-use
+"Quarters, School",Mixed-use
+"Recreational/Club, Social Welfare/Charitable, Commercial, Camp",Mixed-use
+"Agricultural Or Garden (Pink Hateched Black Area), Non-Industrial",Mixed-use
+"Agricultural Or Garden (Pink Hateched Black And Pink Hateched Red Area), Non-Industrial",Mixed-use
+"Non-Industrial, Agricultural Or Garden (Pink Hateched Black Area)",Mixed-use
+"Non-Industrial, Private Residential",Mixed-use
+"The Disney Park And The Rd&E Complex, Hotel, Carpark, Ancilary Uses And Facilities Specified Under Column 1 Of The Applicable Ozp In The Form Of The Draft In Force At 31 October 1999",Mixed-use
+"Non-Industrial, Non-Exclusive Public Vehicular And Pedestrian Access Purposes, Agricultural",Mixed-use
+"Manufacturing, Milling, Grinding, Formulating, Mixing, Blending And Packing Of Agricultural Commodities, Animal Feeds And Animal Feeding Devices",Mixed-use
+"Quarters, Religious, Hostel",Mixed-use
+"School, Religious, Clinic",Mixed-use
+"Garden, Non-Industrial",Mixed-use
+"Commercial, Canteen, Recreational/Club",Mixed-use
+"Residential, Agricultural",Mixed-use
+"Agricultural, Garden",Mixed-use
+"Private Garden, Private Residential",Mixed-use
+"Residence, Agricultural",Mixed-use
+"Community Use, Ancestral Hall",Mixed-use
+"Community Use, Ancestral Hall (Chi Tong)",Mixed-use
+"Ancestral Hall (Chi Tong), Community Use",Mixed-use
+"Non-Industrial, Kindergarten",Mixed-use
+"Non-Industrial, Community Use, Kindergarten",Mixed-use
+"Agricultural, Animal Husbandry",Mixed-use
+"Agricultural, Residential, Recreational/Club",Mixed-use
+"Residential, Agricultural, Recreational/Club",Mixed-use
+"Private Residential, Non-Industrial",Mixed-use
+"Electricity Substations (Ess), Ancillary Office",Mixed-use
+"School, Quarters",Mixed-use
+"Private Residential, Retail Food Shop",Mixed-use
+"Agricultural Research Station, School, Quarters, Driveway, Carpark, Greenhouse",Mixed-use
+"Telephone Exchange, Quarters",Mixed-use
+"Building/Housing Lot, Residential",Mixed-use
+"Commercial, Private Residential",Mixed-use
+"Carpark, Godown",Mixed-use
+"Social Welfare/Charitable, Social Welfare/Charitable, Social Welfare/Charitable",Mixed-use
+"School, Religious",Mixed-use
+"Railway, Railway Depot Or Related Facilities, Non-Industrial",Mixed-use
+"Agricultural, Religious",Mixed-use
+"Coffin Depository, Non-Profit Making Home For The Aged, Quarters, Hospital",Mixed-use
+"Non-Industrial, Private Garden, Building/Housing Lot, Agricultural",Mixed-use
+"Building/Housing Lot, Commercial",Mixed-use
+"Commercial, Building/Housing Lot",Mixed-use
+"Residence, Commercial",Mixed-use
+"Commercial, Residence",Mixed-use
+"Non-Industrial, Private Residential, Social Welfare/Charitable, Community Use, Commercial",Mixed-use
+"Religious, Non-Residential",Mixed-use
+"Commercial, Private Residential, Non-Industrial, Community Use, Social Welfare/Charitable",Mixed-use
+"Quarters, Telephone Exchange",Mixed-use
+"Private Residential, Commercial, Cybermall, Hotel, Bus Depot/Terminus/Station",Mixed-use
+"Quarters, Hostel",Mixed-use
+"Religious, Social Welfare/Charitable",Mixed-use
+"Private Residential, Commercial, Private Garden",Mixed-use
+"Private Residential, Private Garden, Commercial",Mixed-use
+"Academic Buildings, Quarters, Hostel",Mixed-use
+"Non-Industrial Excluding Residential, Residential",Mixed-use
+"Residence, Garden",Mixed-use
+"Non-Profit-Making Skills Centre, Hostel",Mixed-use
+"Religious, School, Community Use",Mixed-use
+"Carpark, Non-Industrial Excluding Residential, Car Repairing Workshop",Mixed-use
+"Community Use, Social Welfare/Charitable",Mixed-use
+"Non-Industrial, Cinema",Mixed-use
+"Importation, Storage & Distribution Of Stone Aggregate",Mixed-use
+"Private Residential, Social Welfare/Charitable, Commercial, Community Use",Mixed-use
+"Community Use, Social Welfare/Charitable, Private Residential, Non-Industrial, Commercial",Mixed-use
+"Quarters, Shipyard/Boatyard",Mixed-use
+"Shipyard/Boatyard, Quarters",Mixed-use
+"Private Residential, Carpark, Widening The Existing Drive Way",Mixed-use
+"Widening The Existing Drive Way, Private Residential, Carpark",Mixed-use
+"Electricity Substations (Ess), Ancillary Offices",Mixed-use
+"Workshop In Connection To Peak Tramway, Quarters",Mixed-use
+"Commercial, Non-Industrial, Social Welfare/Charitable, Community Use",Mixed-use
+"School, Quarters, Social Welfare/Charitable, Health",Mixed-use
+"Peak Tramway, Public Entertainment",Mixed-use
+"Bazaar Thematically Arranged To Accommodate Specialist Trades, Other Related Uses Aimed To Preserve And Enhance The Social And Cultural Heritage Of Hong Kong",Mixed-use
+"Commercial, Centre For The Care Of Juvenile Persons, Residential Nursery, Curtilage, Residential, School, Religious, Residence, Hospital",Mixed-use
+"Agricultural, Orchard",Mixed-use
+"Hostel, Headquarters Or Educational Charitable And Civic Purposes",Mixed-use
+"Private Garden, Agricultural, Non-Industrial",Mixed-use
+"Quarters, Non-Industrial, Railway, Railway Depot Or Related Facilities",Mixed-use
+"Administration Offices, Canteen, Workshop",Mixed-use
+"Quarters, School, Religious",Mixed-use
+"Private Residential, Hotel, Non-Industrial, Non-Residential",Mixed-use
+"Telecommunications, Quarters",Mixed-use
+"Virtually Unrestricted, Residential",Mixed-use
+"Quarters, An Office Of The Ministry Of Foreign Affairs Of The People'S Republic Of China",Mixed-use
+"Quarters, Non-Industrial, Non-Residential, Commercial",Mixed-use
+"Non-Industrial, Agricultural, Private Garden",Mixed-use
+"The Hong Kong Headquarters Of The Bank Of China, Non-Industrial",Mixed-use
+"House/Dwelling House, School",Mixed-use
+"Non-Industrial Excluding Residential, Hotel, Private Residential",Mixed-use
+"Agricultural, Non-Industrial, Private Garden",Mixed-use
+"Social Welfare/Charitable, Social Welfare/Charitable, Social Welfare/Charitable, Social Welfare/Charitable",Mixed-use
+"Hotel, Petrol Filling Station",Mixed-use
+"Religious, School, Quarters",Mixed-use
+"Non-Industrial, Religious",Mixed-use
+"Agricultural, Private Garden, Non-Industrial",Mixed-use
+"Centre For The Elderly, Youth Centre, Clinic",Mixed-use
+"Religious, Quarters",Mixed-use
+"Commercial, Switching Station, Electricity Substations (Ess)",Mixed-use
+"Private Residential, Railway, Railway Depot Or Related Facilities",Mixed-use
+"Social Welfare/Charitable, Home For The Elderly, Kindergarten, Quarters, Religious",Mixed-use
+"Non-Industrial, Religious, School",Mixed-use
+"Non-Industrial, Commercial, Storage",Mixed-use
+"Open Storage, Agricultural",Mixed-use
+"Dangerous Goods Godown, Non-Industrial",Mixed-use
+"Non-Industrial, Private Residential, Railway, Railway Depot Or Related Facilities",Mixed-use
+"Commercial, Vehicle Luricating Service, Petrol Filling Station",Mixed-use
+"Social Welfare/Charitable, Community Use, Commercial, Non-Industrial",Mixed-use
+"Public Utility (Other Than Ess), Quarters",Mixed-use
+"School, Quarters, Religious",Mixed-use
+"Commercial, Welfare Centre, Quarters",Mixed-use
+"Private Residential, Non-Industrial, Non-Industrial, Non-Industrial",Mixed-use
+"Lpg Filling Station, Commercial",Mixed-use
+"Private Garden, Recreational/Club",Mixed-use
+"Electricity Substations For Ground Floor, Non-Industrial",Mixed-use
+"Ancillary Office, Electricity Substations (Ess), Quarters",Mixed-use
+"Carpark, Bus Depot/Terminus/Station, Telephone Exchange, Scout Headquarters",Mixed-use
+"Social Welfare/Charitable, Social Welfare/Charitable",Mixed-use
+"Non-Offensive Trade, Non-Industrial",Mixed-use
+"Community Use, Social Welfare/Charitable, Private Residential, Commercial",Mixed-use
+"Social Welfare/Charitable, Quarters, Residential",Mixed-use
+"Quarters, Private Residential",Mixed-use
+"Non-Industrial, Youth Centre, Indoor Stadium",Mixed-use
+"Residential, Non-Industrial Excluding Residential",Mixed-use
+"School, Quarters, Community Use",Mixed-use
+"Social Welfare/Charitable, Religious, School, Recreational Purposes In Conjunction With The Existing School And Welfare Centre",Mixed-use
+"Home For The Elderly, Street Sleepers' Shelter, Government Accommodation",Mixed-use
+"Religious, Non-Offensive Trade",Mixed-use
+"Religious, Administers Residence",Mixed-use
+"Recreational/Club, Hostel",Mixed-use
+"Carpark, Non-Industrial Excluding Residential",Mixed-use
+"Clinic, Nursery",Mixed-use
+"Social Welfare/Charitable, School",Mixed-use
+"Private Residential, Community Use, Social Welfare/Charitable, Non-Industrial, Commercial",Mixed-use
+"Quarters, Telecommunications",Mixed-use
+"Private Residential, Non-Offensive Trade",Mixed-use
+"The Grantee'S Office And Canteen, Social Welfare/Charitable",Mixed-use
+"Railway, Railway Depot Or Related Facilities, Non-Industrial Excluding Residential",Mixed-use
+"Private Mortuary, Funeral Parlour",Mixed-use
+"Purposes Directly Connected With The Parent Lot And/Or S.S.7, Promenade, Public Sitting-Out Area",Mixed-use
+"Private Residential, Slope Stabilization",Mixed-use
+"Non-Industrial, Freight Yard Extension",Mixed-use
+"Religious, Quarters, School",Mixed-use
+"Community Use, School",Mixed-use
+"Hotel, Non-Industrial, Private Residential",Mixed-use
+"Child Care Centre, School",Mixed-use
+"Public Utility (Other Than Ess), Telephone Exchange, Quarters",Mixed-use
+"Kitchen, Building/Housing Lot",Mixed-use
+"Railway, Railway Depot Or Related Facilities, Commercial",Mixed-use
+"Building/Housing Lot, Kitchen",Mixed-use
+"Private Residential, Commercial, Social Welfare/Charitable, Community Use, Non-Industrial",Mixed-use
+"Quarters, Quarters, Clinic, Clinic",Mixed-use
+"Private Residential, Non-Industrial, Non-Industrial",Mixed-use
+"Telephone Exchange, Government Post Office, Quarters",Mixed-use
+"Private Garden, Residence",Mixed-use
+"Commercial, Community Use, Private Residential, Social Welfare/Charitable",Mixed-use
+"House/Dwelling House, Private Garden, Private Residential",Mixed-use
+"Electricity Substations (Ess), Depot",Mixed-use
+"Private Garden, Access Road, Private Residential, Carpark",Mixed-use
+"Social Welfare/Charitable, Non-Industrial, Private Residential, Commercial, Community Use",Mixed-use
+"Petrol Filling Station, Commercial, Vehicle Servicing (Excluding Repair), Lubricating Or Washing Facilities",Mixed-use
+"Social Welfare/Charitable, Private Garden, Commercial, Non-Industrial, Community Use",Mixed-use
+"Clinic, Social Welfare/Charitable",Mixed-use
+"Quarters, Telephone Exchange, Telecommunications",Mixed-use
+"Commercial, Non-Industrial, Social Welfare/Charitable",Mixed-use
+"Social Welfare/Charitable, Non-Industrial, Commercial",Mixed-use
+"Social Welfare/Charitable, Religious",Mixed-use
+"Community Use, Social Welfare/Charitable, Commercial, Non-Industrial, Private Residential",Mixed-use
+"Commercial, Social Welfare/Charitable, Recreational/Club",Mixed-use
+"Commercial, Marine Fuelling Station",Mixed-use
+"Social Welfare/Charitable, Racecourse",Mixed-use
+"Agricultural, School",Mixed-use
+"Quarters, Funeral Parlour And Private Mortuary",Mixed-use
+"Quarters, Canteen, Bus Depot/Terminus/Station, Welfare Facilities",Mixed-use
+"Residential, Commercial, School, Community Use",Mixed-use
+"Commercial, Social Welfare/Charitable, Private Residential, Non-Industrial, Community Use",Mixed-use
+"Commercial, Petrol Filling Station, Lpg Filling Station",Mixed-use
+"Garden, Non-Industrial, Agricultural",Mixed-use
+"Godown, Cargo/Container Handling Facilities",Mixed-use
+"Industrial And/Or Godown, Non-Industrial",Mixed-use
+"Community Use, Clinic",Mixed-use
+"Non-Industrial, Agricultural, Non-Industrial, Agricultural",Mixed-use
+"Quarters, Virtually Unrestricted",Mixed-use
+"Telephone Exchange, Ancillary Office, Staff Canteen, Recreation Facilities",Mixed-use
+"Residential, Commercial/Residential",Mixed-use
+"Social Welfare/Charitable, School, Quarters, Religious",Mixed-use
+"Quarters, Community Use",Mixed-use
+"Community Use, Private Residential",Mixed-use
+"Garden, Private Residential",Mixed-use
+"Cemetery, Quarters",Mixed-use
+"Distillery Of Soy Sauce, Maufacture Of Soy Sauce",Mixed-use
+"Sawmill, Shipyard/Boatyard",Mixed-use
+"Distillery And/Or For The Manufacture Of Soy Sauce, Preserved Fruits Or Vegetables, Or Chinese Sweetmeats",Mixed-use
+"Water Storage Of Logs, Quarters, Shipbuilding, Timberyard, Sawmill",Mixed-use
+"Quarters, Shipbuilding, Sawmill, Water Storage Of Logs, Timberyard",Mixed-use
+"Quarters, Sawmill, Shipbuilding, Timberyard",Mixed-use
+"Non-Industrial, Private Residential, Commercial, Community Use, Social Welfare/Charitable",Mixed-use
+"Commercial, Car Lubricating, Car Washing, Petrol Filling Station",Mixed-use
+"Private Residential, Agricultural Buildings",Mixed-use
+"Private Residential, Community Use, Social Welfare/Charitable, Commercial, Non-Industrial",Mixed-use
+"The College, The Residential Quarters And The Caretakers' Quarters",Mixed-use
+"Non-Industrial, Social Welfare/Charitable, Community Use, Commercial, Private Residential",Mixed-use
+"Building/Housing Lot, Private Garden, Carpark, Private Residential",Mixed-use
+"Cinema, Private Residential",Mixed-use
+"Social Welfare/Charitable, Commercial, Non-Industrial, Private Residential",Mixed-use
+"Residential, Hotel",Mixed-use
+"Quarters, Electricity Substations (Ess), Ancillary Offices",Mixed-use
+"Public Open Space, Private Residential",Mixed-use
+"Recreational/Club, Marina",Mixed-use
+Open Space,Mixed-use
+Other Specified Uses,Mixed-use
+Comprehensive Development Area,Mixed-use
+Other Specified Uses (Amenity Area),Mixed-use
+Non-Residential,Mixed-use
+Urban Renewal Authority Development Scheme Plan Area,Mixed-use
+West Kowloon Cultural District Development Plan Area,Mixed-use
+N/A,N/A
+Military,Public and Community Services
+Health & Medical Service,Public and Community Services
+Public & Social Service,Public and Community Services
+Social Welfare/Charitable,Public and Community Services
+Cemetery,Public and Community Services
+Community Use,Public and Community Services
+Columbarium,Public and Community Services
+Rehabilitation Centre,Public and Community Services
+Lawful And Charitable Purpose,Public and Community Services
+Centre For Environmental Technology,Public and Community Services
+Operation Of The Society For The Prevention Of Cruelty To Animals,Public and Community Services
+District Headquarter Of Grantee,Public and Community Services
+Child Care Centre Or Centres,Public and Community Services
+Heung Yee Kuk Building,Public and Community Services
+Home For Hospice Care,Public and Community Services
+Film Studio,Public and Community Services
+"""Promotion Of The Charitable Designs And Objects Of The Said Church And Mission House""",Public and Community Services
+Funeral Parfour,Public and Community Services
+"Building/Housing Lot, Building/Housing Lot",Residential
+"Private Residential, Private Residential",Residential
+"Building/Housing Lot, Private Garden, Private Residential",Residential
+"Building/Housing Lot, Garden",Residential
+"Building/Housing Lot, Private Garden",Residential
+"Residence, Private Garden",Residential
+"Garden, Residence",Residential
+"Private Residential, Private Garden",Residential
+"House/Dwelling House, Private Garden",Residential
+"Private Residential, Garden, House/Dwelling House",Residential
+"House/Dwelling House, Residence",Residential
+"Residence, Private Residential",Residential
+Village Type Development,Residential
+Building/Housing Lot,Residential
+Accommodation,Residential
+Residential (Group D),Residential
+Residential/Composite,Residential
+House/Dwelling House,Residential
+Private Residential,Residential
+Residential,Residential
+Villages Type House,Residential
+Hostel,Residential
+Residential (Group C),Residential
+Residential (Group A),Residential
+Residential (Group B),Residential
+Residential (Group E),Residential
+Residence,Residential
+Hotel,Residential
+Private Garden,Residential
+Quarters,Residential
+Rural Public Housing Estate,Residential
+Open Storage,Storage
+Building For Storage Of Kerosine Oil,Storage
+Godown,Storage
+Ice Making And Ancillary Cold Storage,Storage
+Distribution Depot,Storage
+Wharfage And Storage,Storage
+Shipyard/Boatyard,Transportation
+Carpark,Transportation
+Garages,Transportation
+Transportation,Transportation
+Airport Or Related Facilities,Transportation
+Major Road And Junction,Transportation
+Bus Depot/Terminus/Station,Transportation
+Railway,Transportation
+Pedestrian Street,Transportation
+Tram Depot,Transportation
+Tunnel Portal And Such Other Associated Strutures,Transportation
+Typhoon Shelter,Transportation
+Tunnel Portal And Such Other Associated Structures,Transportation
+Pier,Transportation
+Utilities,Utilities and Infrastructure
+River Channel,Utilities and Infrastructure
+Electricity Substations (Ess),Utilities and Infrastructure
+Telecommunications,Utilities and Infrastructure
+Telephone Exchange,Utilities and Infrastructure
+Public Utility (Other Than Ess),Utilities and Infrastructure
+Drainage Channel,Utilities and Infrastructure
+Nullah,Utilities and Infrastructure
+Telephone Exchange And Public Mobile Radio Telephone System Station,Utilities and Infrastructure
+Pump House/Pipeline,Utilities and Infrastructure
+An Active Microwave Repeater Station And Associated Facilities And Such Other Telecommunication Services,Utilities and Infrastructure
+Ventilation House,Utilities and Infrastructure
+Pressure Reduction Station,Utilities and Infrastructure
